@@ -1,3 +1,15 @@
+
+/*
+Author: Colton Choquette
+Email: Colton_Choquette@student.uml.edu
+Date: 12/20/2022
+
+Copyright (c) 2021 by Colton B Choquette.  All rights reserved.
+*/
+
+
+
+
 //This Array allows me to traverse the ScrabbleTiles associative array with numbers as inputs instead of using the letters themselves
 //I use this so I can use a random number generator to pick which letter is being chosen
 var aInd = ['A', 'B', 'C', 'D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','_']
