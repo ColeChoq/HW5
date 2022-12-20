@@ -1,3 +1,13 @@
+/*
+Author: Colton Choquette
+Email: Colton_Choquette@student.uml.edu
+Date: 12/20/2022
+
+Copyright (c) 2021 by Colton B Choquette.  All rights reserved.
+*/
+
+
+
 $( function() {
     $( "#sortable > li" ).draggable({  snap: ".ui-widget-header", snapMode: "inner",  revert: "invalid"  });
     $( "#sortable").droppable({
