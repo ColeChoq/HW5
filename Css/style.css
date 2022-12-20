@@ -1,3 +1,13 @@
+/*
+Author: Colton Choquette
+Email: Colton_Choquette@student.uml.edu
+Date: 12/20/2022
+
+Copyright (c) 2021 by Colton B Choquette.  All rights reserved.
+*/
+
+
+
 .draggable { width: 90px; height: 80px; padding: 5px; float: left; margin: 0 10px 10px 0; font-size: .9em; }
 .ui-widget-header p, .ui-widget-content p { margin: 0; }
 #sortable{background-image: url("../graphics_data/scrabble-tile-holder-406774_640.png"); background-repeat:no-repeat;background-size:cover; width: 700px; height: 200px; }
