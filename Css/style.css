@@ -1,0 +1,75 @@
+.draggable { width: 90px; height: 80px; padding: 5px; float: left; margin: 0 10px 10px 0; font-size: .9em; }
+.ui-widget-header p, .ui-widget-content p { margin: 0; }
+#sortable{background-image: url("../graphics_data/scrabble-tile-holder-406774_640.png"); background-repeat:no-repeat;background-size:cover; width: 700px; height: 200px; }
+#droppable1 {width: 100px; height: 100px; float: left;background-image: url("../graphics_data/Blank.png");background-repeat:no-repeat;background-size:cover;}
+#droppable2 {width: 100px; height: 100px;float: left;background-image: url("../graphics_data/DoubleLetter.png");background-repeat:no-repeat;background-size:cover;}
+#droppable3 {width: 100px; height: 100px;float: left;background-image: url("../graphics_data/Blank.png"); background-repeat:no-repeat;background-size:cover;}
+#droppable4 {width: 100px; height: 100px;float: left;background-image: url("../graphics_data/Blank.png");background-repeat:no-repeat;background-size:cover;}
+#droppable5 {width: 100px; height: 100px;float: left; background-image: url("../graphics_data/DoubleLetter.png");background-repeat:no-repeat;background-size:cover;}
+#droppable6 {width: 100px; height: 100px;float: left;background-image: url("../graphics_data/Blank.png");background-repeat:no-repeat;background-size:cover;}
+#droppable7 {width: 100px; height: 100px;float: left;background-image: url("../graphics_data/Blank.png");background-repeat:no-repeat;background-size:cover;}
+#replace{background-color: transparent;border:none;}
+li{width:70px; height:80px; list-style-type: none;  float:left}
+
+#A0, #A1, #A2, #A3, #A4, #A5, #A6, #A7, #A8{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_A.jpg");}
+#B0, #B1{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_B.jpg");}
+#C0, #C1{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_C.jpg");}
+#D0, #D1, #D2, #D3{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_D.jpg");}
+#E0, #E1, #E2, #E3, #E4, #E5, #E6, #E7, #E8, #E9, #E10, #E11{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_E.jpg");}
+#F0, #F1{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_F.jpg");}
+#G0, #G1, #G2{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_G.jpg");}
+#H0, #H1{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_H.jpg");}
+#I0, #I1, #I2, #I3, #I4, #I5, #I6, #I7, #I8{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_I.jpg");}
+#J0{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_J.jpg");}
+#K0{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_K.jpg");}
+#L0, #L1, #L2, #L3{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_L.jpg");}
+#M0, #M1{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_M.jpg");}
+#N0, #N1, #N2, #N3, #N4, #N5{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_N.jpg");}
+#O0, #O1, #O2, #O3, #O4, #O5, #O6, #O7{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_O.jpg");}
+#P0, #P1{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_P.jpg");}
+#Q0{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_Q.jpg");}
+#R0, #R1, #R2, #R3, #R4, #R5{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_R.jpg");}
+#S0, #S1, #S2, #S3{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_S.jpg");}
+#T0, #T1, #T2, #T3, #T4, #T5{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_T.jpg");}
+#U0, #U1, #U2, #U3{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_U.jpg");}
+#V0, #V1{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_V.jpg");}
+#W0, #W1{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_W.jpg");}
+#X0{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_X.jpg");}
+#Y0, #Y1{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_Y.jpg");}
+#Z0{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_Z.jpg");}
+#_0, #_1{background-size:contain; background-image: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_Blank.jpg");}
+
+body{background-color: bisque;}
+
+#board{
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+   width:750px
+}
+
+#rack{
+    display:block;
+   margin-left: auto;
+   margin-right: auto;
+   width:800px
+}
+
+h1{text-align: center; font-size: 85px; color:brown}
+
+#outer{
+    border:solid 10px black;
+    margin:auto;
+}
+#boutons{
+    padding-left: 50px;
+}
+#rules{
+    display:block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 15px;
+    text-align: center;
+    width: 400px;
+    border: solid black 3px;
+}

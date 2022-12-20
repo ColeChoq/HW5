@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Draggable - Snap to element or grid</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <link rel="stylesheet" href="/Css/style.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+  <script src="./Javascript/dropDrag.js"></script>
+  <script src="./Javascript/functions.js"></script>
+  <script>
+   
+		
+
+
+
+
+
+  </script>
+</head>
+<body>
+  <div id="outer">
+    <h1>SCRABBLE</h1>
+    <div id="rules">
+      <p>Welcome to scrabble. To start the game click the "Set Rack" button. This 
+        will give you your first set of tiles. After that you can drag each tile to
+        a sqare to create a word. When you're ready to submit a word click the "Submit Word" button.
+        If you would like to replace one tile just click the "x" on the tile. If you would
+        like to replace your whole rack click the "Reset Rack" button. You can restart your game at any time
+        with the "Restart Game" button. Enjoy!
+        <br><br>
+        Remeber, all tiles must be placed adjacent to at least one other tile
+      </p>
+
+    </div>
+
+
+
+
+  <div id="board">
+    <div id="warning"></div>
+    <div id="droppable1" class="ui-widget-header">
+        <div id="snaptarget" class="ui-widget-header">
+            
+        </div>
+    </div>
+    <div id="droppable2" class="ui-widget-header">
+        <div id="snaptarget2" class="ui-widget-header">
+            
+        </div>
+    </div>
+    <div id="droppable3" class="ui-widget-header">
+        <div id="snaptarget3" class="ui-widget-header">
+            
+        </div>
+    </div>
+    <div id="droppable4" class="ui-widget-header">
+        <div id="snaptarget4" class="ui-widget-header">
+            
+        </div>
+    </div>
+    <div id="droppable5" class="ui-widget-header">
+        <div id="snaptarget5" class="ui-widget-header">
+            
+        </div>
+    </div>
+    <div id="droppable6" class="ui-widget-header">
+        <div id="snaptarget6" class="ui-widget-header">
+            
+        </div>
+    </div>
+    <div id="droppable7" class="ui-widget-header">
+        <div id="snaptarget7" class="ui-widget-header">
+            
+        </div>
+    </div>
+  </div>
+    
+        
+      
+
+
+  
+ 
+<br style="clear:both">
+<br><br><br><br><br>
+
+
+<div id="rack">
+  <div id="boutons">
+    <button id="set" type="button" onclick="setRack()">Set Rack</button>
+  
+    <button id="submit" type="button" onclick="submit()">Submit Word</button>
+  
+    <button id="set" type="button" onclick="refill()">Refill Rack</button>
+  
+    <button id="set" type="button" onclick="window.location.reload()">Restart Game</button>
+  
+  
+  </div>
+  <ul id="sortable">
+
+  </ul>
+  <div id="total">Total Score: 0</div>
+  <div id="word">Last Word value:</div>
+</div>
+
+
+
+
+  </div>
+
+  
+<div id = '1'></div>
+<div id = '2'></div>
+<div id = '3'></div>
+<div id = '4'></div>
+<div id = '5'></div>
+<div id = '6'></div>
+<div id = '7'></div>
+ 
+ 
+</body>
+</html>
